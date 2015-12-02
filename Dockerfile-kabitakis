@@ -18,3 +18,5 @@ EXPOSE 3000
 
 # docker build -t github-analytics .
 # docker run -p 3000:3000 -e GHTOKEN=YOUR_GITHUB_TOKEN --name analytics01 -t github-analytics
+
+# Thanks to daknob and tzermias!

@@ -2,7 +2,7 @@
 FROM nodejs:5.1.0
 
 # File Author / Maintainer
-MAINTAINER Thanassis Zografos
+MAINTAINER Thanassis Zografos <tzografos@gmail.com>
 
 WORKDIR /data/modules/analytics2
 
@@ -18,8 +18,11 @@ ADD run.sh run.sh
 
 CMD ["./run.sh"]
 
-root@docker-dev:~/Analytics#
-root@docker-dev:~/Analytics# cat run.sh
+#END OF DOCKER FILE
+
+
+
+# CONTENTS OF run.sh
 #!/bin/bash
 
 npm install
